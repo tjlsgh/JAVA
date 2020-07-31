@@ -1,0 +1,21 @@
+
+import javax.swing.JFrame;
+
+
+public class MySwingWindow extends JFrame {
+
+	public MySwingWindow() {
+		super();
+		this.setSize(400,300);
+		this.getContentPane().setLayout(null);
+		this.setTitle("My first swing window");
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MySwingWindow window = new MySwingWindow();
+		window.setVisible(true);
+	}
+
+}
